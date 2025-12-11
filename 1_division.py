@@ -25,3 +25,14 @@
 # Operation finished.
 
 # write your code here:
+
+
+try:
+    x=int(input("enter nr: "))
+    r=int(input())
+    x/r
+    print('the result is',x/r )
+except ZeroDivisionError:
+    print('u cannot divide by zero')
+
+    
