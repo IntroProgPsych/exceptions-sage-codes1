@@ -22,3 +22,11 @@
 # Attempt finished.
 
 # write your code here:
+
+x=input()
+try:
+    x=int(x)
+except ValueError:
+    print(x,'is not an integer')
+else:
+    print('conversion successful')
